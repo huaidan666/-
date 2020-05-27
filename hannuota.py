@@ -11,4 +11,5 @@ def hannoi(num,src,dst,temp=None):
         hannoi(1,src,dst)
         hannoi(num-1,temp,dst,src)
 times=1
+#3是次数，a是初始位置，b是目标位置，temp是临时位置
 hannoi(3,'a','b','c')
